@@ -1,0 +1,163 @@
+/* HomePage.css */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.hero-section {
+  background: linear-gradient(to right, #2a9d8f, #264653);
+  color: white;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+.mission-section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 40px;
+  background: linear-gradient(135deg, #e0f2f1, #ffffff);
+  border-radius: 16px;
+  margin: 60px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  gap: 1rem;
+  box-sizing: border-box;
+}
+
+.mission-text {
+  flex: 0 0 40%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #2c3e50;
+  text-align: left;
+}
+.mission-text p {
+  font-weight: bold;
+}
+
+.mission-text h2 {
+  font-size: 2.2rem;
+  color: #00796b;
+  margin-bottom: 16px;
+}
+
+.mission-text ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+.mission-text li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  color: #37474f;
+}
+
+.mission-text li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #009688;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.mission-image {
+  flex: 0 0 60%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+.mission-image img {
+  width: 100%;
+  max-height: 460px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease-in-out;
+}
+
+.services-section {
+  padding: 60px 20px;
+  background-color: #f0f4f8;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 2.5rem;
+  color: #264653;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.service-card {
+  background: white;
+  width: 340px;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  color: #2a9d8f;
+  margin: 16px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0 16px 20px;
+}
+
+@media (max-width: 850px) {
+  .mission-section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .mission-text,
+  .mission-image {
+    max-width: 100%;
+  }
+
+  .mission-image img {
+    max-height: 300px;
+  }
+}
