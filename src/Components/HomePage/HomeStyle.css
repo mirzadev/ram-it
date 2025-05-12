@@ -2,21 +2,30 @@
 
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
   background-color: #f9f9f9;
 }
-
+.home-mission {
+  font-family: "Lucida Sans";
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: -4rem;
+  margin-top: 3rem;
+  color: navy;
+  background: linear-gradient(135deg, #e0f2f1, #ffffff);
+}
 .hero-section {
   background: linear-gradient(to right, #2a9d8f, #264653);
   color: white;
   padding: 0.5rem 0.5rem;
   text-align: center;
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
 }
 
 .hero-section h1 {
   font-size: 3rem;
   margin-bottom: 10px;
+  font-family: "Lucida Sans";
 }
 
 .hero-section p {
@@ -29,7 +38,7 @@ body {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 60px 40px;
+  padding: 30px 40px;
   background: linear-gradient(135deg, #e0f2f1, #ffffff);
   border-radius: 16px;
   margin: 60px auto;
@@ -49,6 +58,7 @@ body {
 }
 .mission-text p {
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .mission-text h2 {
@@ -61,6 +71,7 @@ body {
   list-style: none;
   padding-left: 0;
   margin: 20px 0;
+  font-size: 1.15rem;
 }
 
 .mission-text li {
@@ -96,12 +107,13 @@ body {
 }
 
 .services-section {
-  padding: 60px 20px;
+  padding: 20px 20px;
   background-color: #f0f4f8;
   text-align: center;
 }
 
 .services-section h2 {
+  font-family: "Lucida Sans";
   font-size: 2.5rem;
   color: #264653;
   margin-bottom: 40px;
@@ -133,7 +145,10 @@ body {
   height: 200px;
   object-fit: cover;
 }
-
+.service-card img:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.2);
+}
 .service-card h3 {
   font-size: 1.5rem;
   color: #2a9d8f;
@@ -142,14 +157,32 @@ body {
 
 .service-card p {
   font-size: 1rem;
+  justify-content: center;
   color: #555;
   margin: 0 16px 20px;
 }
 
 @media (max-width: 850px) {
+  .hero-section h1 {
+    font-size: 1.75rem;
+  }
+  .services-section h2 {
+    font-family: "Lucida Sans";
+    font-size: 1.75rem;
+  }
+  .hero-section p {
+    font-size: 1.1rem;
+  }
   .mission-section {
     flex-direction: column-reverse;
     text-align: center;
+  }
+  .mission-text p {
+    font-size: 1rem;
+  }
+
+  .mission-text h2 {
+    font-size: 1.75rem;
   }
 
   .mission-text,

@@ -3,10 +3,20 @@ import React, { useState, useEffect } from "react";
 import "./HomeStyle.css";
 import { motion, AnimatePresence } from "framer-motion";
 
-import image1 from "../../Assets/Home/OfficeImg-1.jpg";
-import image2 from "../../Assets/Home/OfficeImg-2.jpg";
-import image3 from "../../Assets/Home/OfficeImg-3.jpg";
-import image4 from "../../Assets/Home/OfficeImg-4.jpg";
+import image1 from "../../Assets/Home/CyberSecurity.png";
+import image2 from "../../Assets/Home/CloudService.png";
+import image3 from "../../Assets/Home/AiDevelopment.png";
+import image4 from "../../Assets/Home/Networking.png";
+import OfficeImg1 from "../../Assets/Home/OfficeImg-1.jpg";
+import OfficeImg2 from "../../Assets/Home/OfficeImg-2.jpg";
+import OfficeImg3 from "../../Assets/Home/OfficeImg-3.jpg";
+import OfficeImg4 from "../../Assets/Home/OfficeImg-4.png";
+import OfficeImg5 from "../../Assets/Home/OfficeImg-5.jpg";
+import OfficeImg6 from "../../Assets/Home/OfficeImg-6.jpg";
+import OfficeImg7 from "../../Assets/Home/OfficeImg-7.jpg";
+import OfficeImg8 from "../../Assets/Home/OfficeImg-8.jpg";
+import OfficeImg9 from "../../Assets/Home/OfficeImg-9.jpg";
+import OfficeImg10 from "../../Assets/Home/OfficeImg-10.jpg";
 
 const services = [
   {
@@ -36,7 +46,18 @@ const services = [
 ];
 
 function HomeItems() {
-  const missionImages = [image1, image2, image3, image4];
+  const missionImages = [
+    OfficeImg1,
+    OfficeImg2,
+    OfficeImg3,
+    OfficeImg4,
+    OfficeImg5,
+    OfficeImg6,
+    OfficeImg7,
+    OfficeImg8,
+    OfficeImg9,
+    OfficeImg10,
+  ];
   const [currentImage, setCurrentImage] = useState(0);
 
   useEffect(() => {
@@ -54,10 +75,13 @@ function HomeItems() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1>Welcome to RAM IT</h1>
+          <h1>WELCOME TO RAM IT</h1>
           <p>Empowering Business Through Technology</p>
         </motion.div>
       </header>
+      <div className="home-mission">
+        <h1>OUR MISSION</h1>
+      </div>
 
       <section className="mission-section">
         <motion.div
@@ -67,10 +91,9 @@ function HomeItems() {
           viewport={{ once: true }}
           transition={{ duration: 1 }}
         >
-          <h2>Our Mission</h2>
           <p>
-            At RAM IT, our mission is to power businesses with reliable,
-            innovative technology. We aim to:
+            To empower businesses with reliable, innovative technology. We aim
+            to:
           </p>
 
           <ul>
@@ -86,7 +109,7 @@ function HomeItems() {
             </li>
           </ul>
           <p>
-            We don’t just build software — we build trust, transformation, and
+            We don’t just build software, we build trust, transformation, and
             future-ready technology.
           </p>
         </motion.div>
