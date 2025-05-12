@@ -57,6 +57,7 @@ const Footer = () => {
             <div className="link-menu-3">
               <Link to="/contact">Contact Us</Link>
               <Link to="/about">Explore RAM IT</Link>
+              <Link to="https://www.ramitbd.com/">RAM IT in Bangladesh</Link>
             </div>
           </div>
         </div>
@@ -65,7 +66,7 @@ const Footer = () => {
           <div className="contact-footer_items">
             <div className="location-address">
               <Link
-                to="https://www.google.com/maps/place/Stirling+Town+Center,+8861+striling+Road,+Cooper+City,+FL+33328/@26.0455298,-80.2637054,17z/data=!4m15!1m8!3m7!1s0x88d9a863cb3bfb5b:0x9bdf6980250947ce!2s8661+Stirling+Rd,+Cooper+City,+FL+33328!3b1!8m2!3d26.045525!4d-80.2611305!16s%2Fg%2F11cslvk1k1!3m5!1s0x88d9a86252b7996f:0xe1458e369dccd893!8m2!3d26.0454557!4d-80.2622747!16s%2Fg%2F11bvt860qh?entry=ttu&g_ep=EgoyMDI1MDUwNS4wIKXMDSoASAFQAw%3D%3D"
+                to="https://maps.app.goo.gl/AXUV3vrgV4EmZSjG9"
                 target="_blank"
                 rel="noreferrer"
                 className="location-link"
@@ -96,7 +97,7 @@ const Footer = () => {
               >
                 <div className="email">
                   <img src={Email} alt="email" className="email-image" />
-                  <p className="email-address">ramitservice@gmail.com</p>
+                  <p className="email-address">ramitservice2024@gmail.com</p>
                 </div>
               </Link>
             </div>
