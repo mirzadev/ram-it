@@ -12,9 +12,9 @@ function Dropdown() {
         className={dropdown ? "activity-submenu clicked" : "activity-submenu"}
         onClick={() => setDropdown(!dropdown)}
       >
-        {EventDropDownMenu.map((item) => {
-          return (
-            <li key={item.id}>
+        {EventDropDownMenu.map((item, index) => (
+          <React.Fragment key={item.id}>
+            <li>
               <Link
                 to={item.url}
                 className={item.CName}
@@ -23,10 +23,13 @@ function Dropdown() {
                 {item.title}
               </Link>
             </li>
-          );
-        })}
+            {/* Show divider after the first item only */}
+            {index === 0 && <li className="divider-line" />}
+          </React.Fragment>
+        ))}
       </ul>
     </>
   );
 }
+
 export default Dropdown;

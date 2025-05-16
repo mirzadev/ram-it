@@ -1,0 +1,144 @@
+/* SoftwareDevelopmentPage.css */
+
+/* Main container */
+.software-container {
+  position: relative;
+  min-height: 100vh;
+  background-color: #fff;
+  overflow: hidden; /* Prevents overflow if particles go outside the container */
+}
+
+.hero-section1 {
+  height: 60vh;
+  background-image: url("../../Assets/Carousel/Carousel-10.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Content styling */
+.software-content {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.software-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.software-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* Section styling */
+.software-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  margin: 40px 0;
+}
+
+.software-text-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.software-text-image.reverse {
+  flex-direction: row-reverse;
+}
+
+.section-image {
+  max-width: 100%;
+  height: auto;
+  width: 500px;
+  border-radius: 10px;
+  margin-right: 30px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  animation: floatScale 6s ease-in-out infinite;
+}
+
+.text-block {
+  max-width: 600px;
+  padding: 20px;
+  text-align: left;
+}
+
+.text-block h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.text-block p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+@keyframes floatScale {
+  0% {
+    transform: scale(1) translateY(0px);
+  }
+  50% {
+    transform: scale(1.05) translateY(-10px);
+  }
+  100% {
+    transform: scale(1) translateY(0px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .software-title {
+    font-size: 2.5rem;
+  }
+
+  .software-subtitle {
+    font-size: 1rem;
+  }
+
+  .software-section {
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+
+  .software-text-image {
+    flex-direction: column;
+  }
+
+  .section-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .text-block {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .text-block h2 {
+    font-size: 1.6rem;
+  }
+
+  .text-block p {
+    font-size: 0.9rem;
+  }
+}

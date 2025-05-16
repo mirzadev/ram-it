@@ -18,6 +18,7 @@ export const MenuItems = [
     icon: "fa-solid fa-calendar-days",
     ddIcon: "fas fa-caret-down",
   },
+
   {
     title: "Career",
     url: "/career",

@@ -181,6 +181,7 @@
 
 .copyright-note a {
   display: flex;
+  margin-top: -1rem;
   align-items: center; /* Align everything in the same line */
   text-decoration: none; /* Remove the underline from the link */
   color: inherit; /* Inherit color from parent (e.g., white or default color) */
@@ -196,7 +197,9 @@
   align-items: center;
   padding: 0.1rem 15rem;
 }
-
+.footer_logo {
+  margin-left: -5rem;
+}
 .footer-copyright img:hover {
   transform: scale(1.2);
 }

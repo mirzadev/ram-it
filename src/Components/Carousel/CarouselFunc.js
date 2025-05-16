@@ -3,16 +3,16 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./CarouselFuncStyle.css";
-import img1 from "../../Assets/Carousel/Carousel-30.jpg";
-import img2 from "../../Assets/Carousel/Carousel-31.jpg";
-import img3 from "../../Assets/Carousel/Carousel-3.jpg";
-import img4 from "../../Assets/Carousel/Carousel-4.jpg";
-import img5 from "../../Assets/Carousel/Carousel-5.jpg";
-import img6 from "../../Assets/Carousel/Carousel-6.jpg";
-import img7 from "../../Assets/Carousel/Carousel-7.jpg";
-import img8 from "../../Assets/Carousel/Carousel-9.jpg";
-import img9 from "../../Assets/Carousel/Carousel-9.jpg";
-import img10 from "../../Assets/Carousel/Carousel-10.jpg";
+import img1 from "../../Assets/Carousel/Carousel-1.png";
+import img2 from "../../Assets/Carousel/Carousel-2.png";
+import img3 from "../../Assets/Carousel/Carousel-3.png";
+import img4 from "../../Assets/Carousel/Carousel-4.png";
+import img5 from "../../Assets/Carousel/Carousel-5.png";
+import img6 from "../../Assets/Carousel/Carousel-6.png";
+import img7 from "../../Assets/Carousel/Carousel-7.png";
+import img8 from "../../Assets/Carousel/Carousel-8.png";
+import img9 from "../../Assets/Carousel/Carousel-9.png";
+import img10 from "../../Assets/Carousel/Carousel-10.png";
 // installed --  npm install react-slick slick-carousel
 
 const Carousel = () => {

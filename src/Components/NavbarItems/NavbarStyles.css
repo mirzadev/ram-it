@@ -85,9 +85,9 @@ body {
   display: none;
 }
 #RAMIT-logo {
-  padding-top: 0.8rem;
-  height: 4.5rem;
-  width: 20rem;
+  padding-top: 0.4rem;
+  height: 4rem;
+  width: 16rem;
 }
 
 @media screen and (max-width: 850px) {
