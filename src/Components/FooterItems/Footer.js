@@ -106,7 +106,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-copyright">
-        <div>
+        <div className="footer_logo">
           <img src={RAMITLogo} alt="psptech" height="70" width="200" />
         </div>
         <div>

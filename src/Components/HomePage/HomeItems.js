@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import "./HomeStyle.css";
 import { motion, AnimatePresence } from "framer-motion";
-
+// import AnimatedBackground from "../AnimatedBackground/AnimatedBackground";
 import image1 from "../../Assets/Home/CyberSecurity.png";
 import image2 from "../../Assets/Home/CloudService.png";
 import image3 from "../../Assets/Home/AiDevelopment.png";
@@ -69,14 +69,17 @@ function HomeItems() {
 
   return (
     <div className="homepage">
-      <header className="hero-section">
+      {/* <AnimatedBackground /> */}
+      <header className="hero-section-Home">
         <motion.div
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1>WELCOME TO RAM IT</h1>
-          <p>Empowering Business Through Technology</p>
+          <div className="homepage-header">
+            <h1>WELCOME TO RAM IT</h1>
+            <p>Empowering Business Through Technology</p>
+          </div>
         </motion.div>
       </header>
       <div className="home-mission">

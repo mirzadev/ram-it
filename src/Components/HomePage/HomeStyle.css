@@ -14,21 +14,21 @@ body {
   color: navy;
   background: linear-gradient(135deg, #e0f2f1, #ffffff);
 }
-.hero-section {
+.homepage-header {
   background: linear-gradient(to right, #2a9d8f, #264653);
   color: white;
   padding: 0.5rem 0.5rem;
   text-align: center;
-  /* margin-top: 6rem; */
+  margin-top: -1rem;
 }
 
-.hero-section h1 {
+.homepage-header h1 {
   font-size: 3rem;
   margin-bottom: 10px;
   font-family: "Lucida Sans";
 }
 
-.hero-section p {
+.homepage-header p {
   font-size: 1.5rem;
   opacity: 0.9;
 }
@@ -163,14 +163,14 @@ body {
 }
 
 @media (max-width: 850px) {
-  .hero-section h1 {
+  .homepage-header h1 {
     font-size: 1.75rem;
   }
   .services-section h2 {
     font-family: "Lucida Sans";
     font-size: 1.75rem;
   }
-  .hero-section p {
+  .homepage-header p {
     font-size: 1.1rem;
   }
   .mission-section {
