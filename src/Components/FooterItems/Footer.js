@@ -109,7 +109,7 @@ const Footer = () => {
         <div className="footer_logo">
           <img src={RAMITLogo} alt="psptech" height="70" width="200" />
         </div>
-        <div>
+        <div className="copyright-ramit">
           <p>Copyright @ 2024 RAM IT Inc</p>
         </div>
         <div className="copyright-note">

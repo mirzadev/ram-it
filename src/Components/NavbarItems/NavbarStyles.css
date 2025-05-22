@@ -102,7 +102,7 @@ body {
     padding: 0 15px;
     top: 4px;
     width: 99%;
-    height: 50px;
+    height: 40px;
   }
   .nav-menu {
     display: flex;
@@ -172,8 +172,7 @@ body {
 
   #RAMIT-logo {
     padding-top: 0.5rem;
-    height: 3.5rem;
-    width: 3rem;
-    margin-left: -0.6rem;
+    height: 2rem;
+    width: 6rem;
   }
 }

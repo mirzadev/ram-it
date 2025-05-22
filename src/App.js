@@ -7,6 +7,7 @@ import Contact from "./Routes/ContactUs";
 import AboutUs from "./Routes/AboutUs";
 import SoftwareDevelopment from "./Routes/SoftwareDevelopment";
 import AppDev from "./Routes/AppDev";
+import WebDev from "./Routes/WebDev";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/development" element={<SoftwareDevelopment />} />
         <Route path="/appDevelopment" element={<AppDev />} />
+        <Route path="/webDevelopment" element={<WebDev />} />
       </Routes>
     </div>
   );

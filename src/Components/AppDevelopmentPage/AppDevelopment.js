@@ -20,7 +20,7 @@ const AppDevelopment = () => {
     <div className="app-development-container">
       <AnimatedBackground />
       {/* <AnimatedBackground /> */}
-      <div className="hero-section2">
+      <div className="hero-section4">
         <div className="hero-overlay">
           <h1>App Development</h1>
         </div>
@@ -91,7 +91,7 @@ const AppDevelopment = () => {
         <div className="working-progress-headers">
           <h2>Working Progress</h2>
           <h1>Start-to-End App Development Agency</h1>
-          <p>Make your awesome business idea a reality with PSP Technology.</p>
+          <p>Make your awesome business idea a reality with RAM IT.</p>
         </div>
       </section>
 
