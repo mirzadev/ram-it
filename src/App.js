@@ -8,6 +8,7 @@ import AboutUs from "./Routes/AboutUs";
 import SoftwareDevelopment from "./Routes/SoftwareDevelopment";
 import AppDev from "./Routes/AppDev";
 import WebDev from "./Routes/WebDev";
+import Career from "./Routes/Career";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/development" element={<SoftwareDevelopment />} />
         <Route path="/appDevelopment" element={<AppDev />} />
         <Route path="/webDevelopment" element={<WebDev />} />
+        <Route path="/career" element={<Career />} />
       </Routes>
     </div>
   );
