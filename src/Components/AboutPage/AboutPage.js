@@ -10,6 +10,7 @@ import aiIcon from "../../Assets/About/artificial-intelligence.png";
 import networkIcon from "../../Assets/About/network.png";
 import whoIcon from "../../Assets/About/info.png";
 import AnimatedBackground from "../AnimatedBackground/AnimatedBackground";
+// import VdoAnimatedBackground from "../VdoAnimatedBackground/VdoAnimatedBackground";
 import value1 from "../../Assets/About/coreValue-1.png";
 import value2 from "../../Assets/About/coreValue-2.png";
 import value3 from "../../Assets/About/coreValue-3.png";
@@ -18,6 +19,7 @@ import WhoWeArePhoto from "../../Assets/About/aboutUsPhoto.png";
 const About = () => {
   return (
     <div className="about-page" style={{ position: "relative", zIndex: 1 }}>
+      {/* <VdoAnimatedBackground /> */}
       <AnimatedBackground />
       {/* Hero Section */}
       <div className="hero-section">
