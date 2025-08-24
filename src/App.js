@@ -9,6 +9,8 @@ import SoftwareDevelopment from "./Routes/SoftwareDevelopment";
 import AppDev from "./Routes/AppDev";
 import WebDev from "./Routes/WebDev";
 import Career from "./Routes/Career";
+import FrontEndDeveloper from "./Routes/FrontendDevelopers";
+import JobApply from "./Routes/JobApply";
 
 function App() {
   return (
@@ -18,10 +20,18 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/ramitusa.com/about" element={<AboutUs />} />
         <Route path="/development" element={<SoftwareDevelopment />} />
         <Route path="/appDevelopment" element={<AppDev />} />
         <Route path="/webDevelopment" element={<WebDev />} />
         <Route path="/career" element={<Career />} />
+        <Route
+          path="/career/frontend-developer"
+          element={<FrontEndDeveloper />}
+        />
+        <Route path="/apply/job" element={<JobApply />} />
+        <Route path="/job/:jobId" element={<FrontEndDeveloper />} />
+        <Route path="/apply/:jobId" element={<JobApply />} />
       </Routes>
     </div>
   );

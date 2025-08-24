@@ -1,0 +1,100 @@
+/* Base styles */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Application Form Container */
+.application-form {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+/* Heading */
+.application-form h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Form elements */
+.application-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.application-form label {
+  margin: 12px 0 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.application-form input[type="text"],
+.application-form input[type="email"],
+.application-form input[type="file"],
+.application-form textarea {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+}
+
+.application-form input:focus,
+.application-form textarea:focus {
+  border-color: #007bff;
+}
+
+/* File input */
+.application-form input[type="file"] {
+  padding: 0.4rem;
+}
+
+/* Button */
+.apply-btn {
+  margin-top: 20px;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.25s ease;
+}
+
+.apply-btn:hover {
+  background-color: #0056b3;
+}
+.status-message {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: green;
+}
+
+.status-message:before {
+  content: "📨 ";
+}
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .application-form {
+    padding: 1.2rem;
+  }
+
+  .application-form h2 {
+    font-size: 1.5rem;
+  }
+}

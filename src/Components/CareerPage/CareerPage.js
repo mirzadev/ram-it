@@ -1,6 +1,7 @@
 import React from "react";
 import "./CareerPageStyles.css";
 import { jobListings } from "./JobData";
+import { Link, useParams, useNavigate } from "react-router-dom";
 import VdoAnimatedBackground from "../VdoAnimatedBackground/VdoAnimatedBackground";
 import image1 from "../../Assets/Career/Innovations.png";
 import image2 from "../../Assets/Career/Collaboration.png";
@@ -14,6 +15,11 @@ import image9 from "../../Assets/Career/job-offer.png";
 import image10 from "../../Assets/Career/application-process.png";
 
 function CareerPage() {
+  // const { jobId } = useParams();
+  // const navigate = useNavigate();
+  // const job = jobListings.find((j) => j.id === jobId);
+
+  // if (!job) return <p>Job not found</p>;
   return (
     <div className="career-container">
       <VdoAnimatedBackground />
@@ -133,13 +139,15 @@ function CareerPage() {
         <h2>Open Positions</h2>
         <div className="career-grid">
           {jobListings.map((job, index) => (
-            <div key={index} className="career-card">
+            <div key={job.id} className="career-card">
               <h3>{job.title}</h3>
               <p className="job-meta">
                 {job.type} | {job.location}
               </p>
               <p>{job.description}</p>
-              <button className="apply-btn">Apply Now</button>
+              <Link to={`/job/${job.id}`} className="apply-btn">
+                View Details
+              </Link>
             </div>
           ))}
         </div>

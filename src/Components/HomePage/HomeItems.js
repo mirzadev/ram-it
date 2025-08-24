@@ -20,25 +20,49 @@ import OfficeImg10 from "../../Assets/Home/OfficeImg-10.jpg";
 
 const services = [
   {
-    title: "Cyber Security",
+    title: "Software Development",
     img: image1,
     description:
       "We protect your digital infrastructure with cutting-edge cybersecurity solutions including threat detection, vulnerability assessments, and incident response.",
   },
   {
-    title: "Cloud Services",
+    title: "Web Development",
+    img: image1,
+    description:
+      "We protect your digital infrastructure with cutting-edge cybersecurity solutions including threat detection, vulnerability assessments, and incident response.",
+  },
+  {
+    title: "Mobile App Development",
+    img: image1,
+    description:
+      "We protect your digital infrastructure with cutting-edge cybersecurity solutions including threat detection, vulnerability assessments, and incident response.",
+  },
+  {
+    title: "Database Analysis",
     img: image2,
     description:
       "Our cloud experts help you migrate, manage, and optimize cloud infrastructure for performance, security, and scalability.",
   },
   {
-    title: "AI Development",
+    title: "UI/UX Design",
     img: image3,
     description:
       "We build intelligent AI solutions including automation, data modeling, and decision support systems for modern enterprises.",
   },
   {
-    title: "Networking",
+    title: "Quality Assurance",
+    img: image4,
+    description:
+      "RAM IT designs and maintains secure, reliable, and scalable networks tailored to your operational needs.",
+  },
+  {
+    title: "System Integration",
+    img: image4,
+    description:
+      "RAM IT designs and maintains secure, reliable, and scalable networks tailored to your operational needs.",
+  },
+  {
+    title: "Software Maintenance and Support",
     img: image4,
     description:
       "RAM IT designs and maintains secure, reliable, and scalable networks tailored to your operational needs.",

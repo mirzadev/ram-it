@@ -1,5 +1,6 @@
 export const jobListings = [
   {
+    id: "frontend-developer",
     title: "Frontend Developer",
     location: "Hollywood, Florida",
     type: "Contract",
@@ -7,6 +8,7 @@ export const jobListings = [
       "Build and optimize user-facing features using React and modern web technologies.",
   },
   {
+    id: "backend-developer",
     title: "Backend Developer",
     location: "Hollywood, Florida",
     type: "Full-time",
@@ -14,6 +16,7 @@ export const jobListings = [
       "Design, develop and implement scalable backend systems using Node.js and cloud services.",
   },
   {
+    id: "devOps-engineer",
     title: "DevOps Engineer",
     location: "Hollywood, Florida",
     type: "Contract",
@@ -21,6 +24,7 @@ export const jobListings = [
       "Automate processes, monitor critical systems, and ensure continuous deployment stability & efficiency.",
   },
   {
+    id: "qaianalyst",
     title: "QA Analyst",
     location: "Hollywood, Florida",
     type: "Full-Time",
@@ -28,6 +32,7 @@ export const jobListings = [
       "Design and execute test plans, identify bugs, and ensure software quality across platforms.",
   },
   {
+    id: "business-analyst",
     title: "Business Analyst",
     location: "Hollywood, Florida",
     type: "Contract",
@@ -35,6 +40,7 @@ export const jobListings = [
       "Analyze business processes, gather requirements, and collaborate with stakeholders to deliver data-driven solutions.",
   },
   {
+    id: "database-engineer",
     title: "Database Engineer",
     location: "Hollywood, Florida",
     type: "Full-Time",
@@ -42,6 +48,7 @@ export const jobListings = [
       "Manage and optimize database systems, ensure data integrity, and support business intelligence initiatives.",
   },
   {
+    id: "scrum-master",
     title: "Scrum Master",
     location: "Hollywood,Florida",
     type: "Contract",
@@ -49,6 +56,7 @@ export const jobListings = [
       "Facilitate Agile ceremonies and ensure alignment with Scrum practices to drive product delivery and team efficiency.",
   },
   {
+    id: "administrative-officer",
     title: "Administrative Officer",
     location: "Hollywood, Florida",
     type: "Part-Time or Full-Time",
