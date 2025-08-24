@@ -20,7 +20,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<AboutUs />} />
-        <Route path="/ramitusa.com/about" element={<AboutUs />} />
         <Route path="/development" element={<SoftwareDevelopment />} />
         <Route path="/appDevelopment" element={<AppDev />} />
         <Route path="/webDevelopment" element={<WebDev />} />
